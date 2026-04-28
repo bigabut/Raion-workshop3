@@ -535,6 +535,7 @@ MonoBehaviour:
   DialogueText: {fileID: 1421701472}
   nameText: {fileID: 2117772910}
   portraitImage: {fileID: 1343063154}
+  priority: 0
 --- !u!114 &936768317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,6 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a06eae04b2ed404ea7d9611547277eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::knife
+  priority: 10
 --- !u!1 &1039261603
 GameObject:
   m_ObjectHideFlags: 0
