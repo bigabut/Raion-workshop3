@@ -3,6 +3,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class Dialogue : MonoBehaviour, EffectScripts
 {
     public DialogueSystem dialogueData;

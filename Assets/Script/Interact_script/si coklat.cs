@@ -2,9 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class knife : MonoBehaviour, EffectScripts
+public class sicoklat:MonoBehaviour, EffectScripts
 {
-    
 
     public int priority = 10;
     public int Priority => priority;
@@ -18,6 +17,6 @@ public class knife : MonoBehaviour, EffectScripts
 
     private void depleted()
     {
-        SceneManager.LoadScene("BattleScene");
+        gameObject.SetActive(false);
     }
 }
